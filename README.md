@@ -1,4 +1,4 @@
-![FN7112-diamond-inclusion](https://github.com/Evgenii-Barannik/CO2D-project-github/blob/master/results/edited-photo/FN7112-inclusions-preview.jpg?raw=true)
+![FN7112-diamond-inclusion](https://github.com/Evgenii-Barannik/CO2-diamonds-project/blob/master/results/edited-photo/FN7112-inclusions-preview.jpg)
 
 # CO2D-project
 This project contains data for the CO2-rich diamond research undertaken in 2019-2020. Project is hosted on GitHub: https://github.com/Evgenii-Barannik/CO2-diamonds-project. Text documents in the project are formatted in Markdown (.md) and can be opened with plain-text editor.  
