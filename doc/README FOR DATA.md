@@ -78,6 +78,4 @@ Folder contains FTIR-spectra of CO2 and H2O background in A = A(w) format. Spect
 # from-elsewhere folder
 Folder from-elsewhere contains data from other various sources:
 
-* "12CO2-v3-Hitran-k(w)-1atm-296K.txt" and "13CO2+12CO2-CDSD296-k(w)-1atm-296K.txt" are HITRAN/CDSD-generated CO2 spectra (look inside file for more info);
-* "A study of unusual diamonds - CO2 v3 - Fig 416" file was created by digitization of absorption spectra from [A study of unusual diamonds from the George Creek K1 Kimberlite dyke, Colorado" thesis] with Engauge Digitizer;
 * "Defects spectra.csv" file contains diamond center FTIR-spectra. Curves from this table were used to create Fityk fitting functions for A, B, C, and X-centers.
