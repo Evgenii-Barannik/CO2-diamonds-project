@@ -1,7 +1,5 @@
-![FN7112-diamond-inclusion](https://github.com/Evgenii-Barannik/CO2-diamonds-project/blob/master/results/edited-photo/FN7112-inclusions-preview.jpg)
-
 # CO2D-project
-This project contains data for the CO2-rich diamond research undertaken in 2019-2020. Project is hosted on GitHub: https://github.com/Evgenii-Barannik/CO2-diamonds-project. Text documents in the project are formatted in Markdown (.md) and can be opened with plain-text editor.  
+This project contains data for the CO2-rich diamond research undertaken in 2019-2020. Text documents in the project are formatted in Markdown (.md) and can be read with plain-text editor.  
 
 1. **data** folder contains raw data: FTIR-spectra, photos, omnic maps (.map). Folders inside correspond to the different datasets. For more info, see the "README FOR DATA.txt" in the **doc** folder. 
 2. **doc** folder contains most written documents: readme for data, readme for code, workflow for data processing, licence. There are also Fityk init functions, origin project.
