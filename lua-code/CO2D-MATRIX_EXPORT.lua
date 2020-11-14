@@ -12,8 +12,8 @@ print("----------MATRIX EXPORT LOG----------")
 	parameters = {"height", "Area", "center", "FWHM", "shape"} -- LIST FOR parameter's for export. For example "Area", "center", "FWHM" can be used for Voigt, or "height" for Acenter, Bcenter, Ccenter, Oband.
 
 	NumberOfPointsinRow = 16 -- Number of points in each row of a matrix
-	MatrixFolder = string.format("/Users/meguka/Dropbox/CO2D-project-github/results/matrix") --Set path to the folder for Matrix export
-	MetadataFolder = string.format("/Users/meguka/Dropbox/CO2D-project-github/results/matrix-metadata") -- Set path to the folder for Metadata export
+	MatrixFolder = string.format("/Users/meguka/CO2D-project-github/results/matrix") --Set path to the folder for Matrix export
+	MetadataFolder = string.format("/Users/meguka/CO2D-project-github/results/matrix-metadata") -- Set path to the folder for Metadata export
 
 --CYCLES START
 	for j, Funtype in  ipairs(types) do --For all function types do:

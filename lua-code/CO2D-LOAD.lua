@@ -11,9 +11,9 @@ do --Script start
 	SpectraFormat = string.format(".CSV") ---Set invariant part of spectra name (which is after number). Also includes file format.
 	FirstSpectrum = 1--Set first spectrum number.
 	LastSpectrum  = 200 --Set last spectrum number.
-	SpectraFolder = string.format("/Users/meguka/Dropbox/CO2D-project-github/data/FN7114NewProfiles/") --Set path to the spectra folder.
+	SpectraFolder = string.format("/Users/meguka/CO2D-project-github/data/FN7114NewProfiles/") --Set path to the spectra folder.
 	StandardName = string.format("HPHT IIa diamond spectrum normalized.dat")--Set full name of the standard spectra. Can be "HPHT IIa diamond spectra normalized.dat".
-	StandardFolder = string.format("/Users/meguka/Dropbox/CO2D-project-github/data/HPHT-IIa-diamond/") --Set path to the folder with standard spectra.
+	StandardFolder = string.format("/Users/meguka/CO2D-project-github/data/HPHT-IIa-diamond/") --Set path to the folder with standard spectra.
 		
 	--MAIN CODE SECTION--
 	F:execute ("set cwd = '%s'" % StandardFolder) -- Load path to the standard spectra folder.

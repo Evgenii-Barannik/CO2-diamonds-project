@@ -7,7 +7,7 @@
 do --Script start
 
 --OPTIONS--	(CHECK BEFORE START)
-destination = string.format("/Users/meguka/Dropbox/CO2D-project-github/results/edited-spectra") -- Set path to the folder for data export.
+destination = string.format("/Users/meguka/CO2D-project-github/results/edited-spectra") -- Set path to the folder for data export.
 
 --MAIN CODE SECTION--
 	for i = 0, F:get_dataset_count()-1 do --For all i-numbers, from 0 to number of dataset amount.

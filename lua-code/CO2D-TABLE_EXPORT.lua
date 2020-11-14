@@ -7,7 +7,7 @@
 do --Script start
 
 --OPTIONS-- (CHECK BEFORE START)
-	F:execute ("set cwd = '/Users/meguka/Dropbox/CO2D-project-github/results/tables/'") -- Set path to the folder for data export
+	F:execute ("set cwd = '/Users/meguka/CO2D-project-github/results/tables/'") -- Set path to the folder for data export
 
 --MAIN CODE SECTION--
 	arrayCounter = 0 --Create variable to count the functions inside array
