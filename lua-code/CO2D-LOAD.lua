@@ -7,11 +7,11 @@
 do --Script start
 
 --OPTIONS-- (CHECK BEFORE START)
-	SpectraName = string.format("FN7114Profile#2-31-01-2020") --Set invariant part of spectra name (which is before number).
+	SpectraName = string.format("FN7114 line across CO2 30 microns") --Set invariant part of spectra name (which is before number).
 	SpectraFormat = string.format(".CSV") ---Set invariant part of spectra name (which is after number). Also includes file format.
 	FirstSpectrum = 1--Set first spectrum number.
 	LastSpectrum  = 200 --Set last spectrum number.
-	SpectraFolder = string.format("/Users/meguka/CO2D-project-github/data/FN7114NewProfiles/") --Set path to the spectra folder.
+	SpectraFolder = string.format("/Users/meguka/CO2D-project-github/data/FN7114 line across CO2 30 microns/") --Set path to the spectra folder.
 	StandardName = string.format("HPHT IIa diamond spectrum normalized.dat")--Set full name of the standard spectra. Can be "HPHT IIa diamond spectra normalized.dat".
 	StandardFolder = string.format("/Users/meguka/CO2D-project-github/data/HPHT-IIa-diamond/") --Set path to the folder with standard spectra.
 		

@@ -10,8 +10,8 @@ do --Script start
 	F:execute ("set fitting_method = mpfit") -- Set the fitting method.
 
 --MAIN CODE SECTION--
-	repeat mode = F:input ("Type one symbol to choose fitting mode:\n  2 (for CO2 V2);\n  3 (for CO2 V3);\n  h (for VN3H);\n  c (for Carbonates);\n  n (for A, B, C-centers and Platelets);\n  s (for 800 cm-1 band).") -- Script mode selection
-	until  mode == "2" or mode == "3" or mode == "h" or mode == "c" or mode == "n" or mode == "s" -- Repeat until correct script mode is selected
+	repeat mode = F:input ("Type one symbol to choose fitting mode:\n  0 (do not fit, only normalize); \n  2 (for CO2 V2);\n  3 (for CO2 V3);\n  h (for VN3H);\n  c (for Carbonates);\n  n (for A, B, C-centers and Platelets);\n  s (for 800 cm-1 band).") -- Script mode selection
+	until  mode == "0" or mode == "2" or mode == "3" or mode == "h" or mode == "c" or mode == "n" or mode == "s" -- Repeat until correct script mode is selected
 
 	if mode == "n" then Cskip=F:input ("Skip C-centers? [y/n]") --Choose to C-centers in calculation
 	else end
@@ -40,7 +40,10 @@ do --Script start
 			then print("######Spectrum %04d converged to standard in %d steps######" % {j, h}) break --If converged then print info into Fityk console and break
 			else end 
 		end
+
+		if mode ~= "0" then --Mode check
 		F:execute ("@%d = @%d - @0" % {j, j}) --Subtraction of the standard spectrum. {j, j} is used to set the value of j in two places.
+		else end
 
 --CO2 V3 mode
 		if mode == "3" then --Mode check
