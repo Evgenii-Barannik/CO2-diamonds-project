@@ -104,5 +104,5 @@ Folder is for Voigt1+Voigt2 matrices addition. Data for both FN7114 and FN7112 d
 Folder with plots and data from "FN7112 map truncated" and "FN7112 vertical profile at 18750 through CO2 max 30 microns" tables. Tables with V1-V6 function parameters were imported for both map and profile. V3b and V2a+V2b area correlations were ploted for both map and profile.
 Linear correlation parameters computed with CO2D-LPLOT.ipynb for "FN7114 line across CO2 30 microns linear fit comparison.png" and "FN7112 map+profile linear fit.png" were verified with Origin. FN7114 linear fit is exactly like computed with Origin. For FN7112 linear fit can be calculated from [map, profile, map+profile] datasets. Linear fit from map dataset is exactly like computed with Origin. Linear fit for combined map+profile dataset was used for the figure.
 
-# Edited-photo
-FN7114-with-approximate-mapping-zone-rotated.png was created by aligning of FN7114 diamond photo and "FN7114 map photo uncut.JPG". Alignment was done using diamond outline and two visible defects near diamond center. Small rotation was included. Procedure was analogues for FN7112 picture.
+# Edited-photographs
+FN7114-with-approximate-mapping-zone-rotated.png was created by aligning of FN7114 diamond photo and "FN7114 map photo uncut.JPG". Alignment was done using diamond outline and two visible defects near diamond center. Small rotation was included. Procedure was similar for the FN7112 picture.

@@ -12,7 +12,7 @@ destination = string.format("/Users/meguka/CO2D-project-github/results/edited-sp
 --MAIN CODE SECTION--
 	for i = 0, F:get_dataset_count()-1 do --For all i-numbers, from 0 to number of dataset amount.
 	F:execute ("use @%d" % i) --Use dataset i.
-	filename = string.format("Fitted-")..F:get_info("title") --create filename using original filename and Fitted- string
+	filename = string.format("Edited-")..F:get_info("title")..string.format(".csv") --create filename using original filename and Fitted- string
 	F:execute ("print all: x, y, F(x) > '%s/%s'" % {destination, filename}) --Print x, y, model values to the output file.
 	end --Cycle end
 end --Script end
